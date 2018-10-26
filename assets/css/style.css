@@ -1,0 +1,45 @@
+.jumbotron{
+    font-size: 43px;
+    border: solid 5px #104402;
+    background: #cfcfd1;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right:20%;
+    padding: 15px;
+    font-family: 'Stalinist One', cursive;   
+}
+
+body {
+    background-image: url("../images/closeEncounters.jpg");
+    width: 100%
+}
+
+.row{
+    background-color: white;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right:20%;
+    padding: 15px;
+}
+
+h2 {
+    font-family: 'Stalinist One', cursive;
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right:20%;
+    padding-top: 10px;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;   
+}
+
+
+

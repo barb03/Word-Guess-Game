@@ -1,21 +1,21 @@
-.jumbotron{
+.jumbotron{           /* to style the title*/
     font-size: 43px;
     border: solid 5px #104402;
     background: #cfcfd1;
     text-align: center;
     margin-top: 2%;
     margin-left: 20%;
-    margin-right:20%;
+    margin-right:20%;    
     padding: 15px;
     font-family: 'Stalinist One', cursive;   
 }
 
-body {
+body {               /* to style the body with back ground image*/
     background-image: url("../images/closeEncounters.jpg");
     width: 100%
 }
 
-.row{
+.row{                /* to style the rows for content*/
     background-color: white;
     text-align: center;
     margin-top: 2%;
@@ -24,7 +24,7 @@ body {
     padding: 15px;
 }
 
-h2 {
+h2 {                 /* to style the directions */
     font-family: 'Stalinist One', cursive;
     font-size: 18px;
     text-align: center;
@@ -35,11 +35,23 @@ h2 {
     padding-top: 10px;
 }
 
-img{
-    height: 250px;
-    width: 250px;
-    margin: 0 auto;   
+#image{              /* to style the spaceship image */
+    margin: 0 auto; 
+    transition: all 5s ease-in-out;         
 }
+img{                 /* to set up the animation for spaceship image */
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-name: rotate;      
+}
+@keyframes  rotate {   /* to rotate the shipship image */
+    0% { transform: rotate(0deg)}
+    25% { transform: rotate(8deg)}
+    50% { transform: rotate(0deg)}
+    75% { transform: rotate(-8deg)}
+    100% { transform: rotate(0deg)}
+}
+
 
 
 

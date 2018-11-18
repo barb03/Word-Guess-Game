@@ -2,7 +2,7 @@
 
 ## Word Guess Game (Challenge - Recommended)
 
-Access the page [Here](https://github.com/barb03/Word-Guess-Game)
+Access the page [Here](https://barb03.github.io/Word-Guess-Game/)
 
 1. [Watch the demo](https://youtu.be/W-IJcC4tYFI).
 
